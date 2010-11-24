@@ -14,9 +14,9 @@ begin
     spec.version      = ::Devise::FacebookConnectable::VERSION
     spec.summary      = %{Devise << Facebook Connect.}
     spec.description  = spec.summary
-    spec.homepage     = "http://github.com/grimen/#{spec.name}"
-    spec.authors      = ["Jonas Grimfelt"]
-    spec.email        = "grimen@gmail.com"
+    spec.homepage     = "http://github.com/tlianza/#{spec.name}"
+    spec.authors      = ["Tom Lianza", "Jonas Grimfelt"]
+    spec.email        = "tom@wishpot.com"
 
     spec.files = FileList['[A-Z]*', File.join(*%w[{generators,lib,rails} ** *]).to_s]
 
